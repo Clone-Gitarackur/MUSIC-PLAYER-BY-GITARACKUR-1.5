@@ -95,7 +95,7 @@
       }
   
 
-      #prev, #playPause, #next{
+      #prev, #next{
         border-radius: 50%;
         width: 30%;
         height: 30%;
@@ -104,6 +104,17 @@
         cursor: pointer;
         display: block;
         background: linear-gradient(to right, #f7971e, #ffd200);
+       }
+
+      #playPause{
+        border-radius: 50%;
+        width: 30%;
+        height: 30%;
+        padding: 1%; 
+        margin: auto; 
+        cursor: pointer;
+        display: block;
+        background:black
        }
 
        #prev:hover{
