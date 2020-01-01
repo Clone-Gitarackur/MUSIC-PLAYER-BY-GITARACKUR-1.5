@@ -179,7 +179,11 @@ var Animate= function(){
         PlayAndDisplay();
         // the animation canvas code for the banner
         Animate();
+        if(PLayPause.src="./images/PL.png"){
         PLayPause.src="./images/PAU.png";
+        }else{
+        PLayPause.src="./images/PL.png"
+        }
     }
     
 
@@ -216,6 +220,8 @@ var Animate= function(){
 
         if(fillBar.style.width==="100%"){
             PLayPause.src="./images/PL.png";
+        }else{
+        PLayPause.src="./images/PL.png";
         }
                
     }
